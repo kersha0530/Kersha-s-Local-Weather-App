@@ -86,12 +86,13 @@ Page Options: Sets up the page title and enables a fillable layout.
 
 # Requirements
 Below is the content of requirements.txt:
-shiny
-shiny-express
-faicons
-matplotlib
-scipy
-requests
+```txt
+*shiny
+*shiny-express
+*faicons
+*matplotlib
+*scipy
+*requests
 
 # API Key Setup
 * You must obtain an API key from OpenWeatherMap and add it to the script:
