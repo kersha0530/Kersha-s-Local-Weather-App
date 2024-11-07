@@ -1,4 +1,4 @@
-# cintel-06-custom
+# cintel-06-custom I need to update this readme so that it doesnot contain any links to the cintel-06 project
 # Kersha's Local Weather Data Shiny App
 
 ## Project Overview
