@@ -34,15 +34,15 @@ The interface is built using the Shiny package for Python and is styled with cus
    ```bash
    git clone https://github.com/kersha0530/cintel-06-custom
    cd cintel-06-custom
+Install Python dependencies:
 
-
-* Install Python dependencies:
-  ```bash
+bash
+Copy code
 pip install -r requirements.txt
+Install PyShiny and additional required libraries if necessary:
 
-
-* Install PyShiny and additional required libraries if necessary:
-  ```bash
+bash
+Copy code
 pip install shiny shiny-express faicons matplotlib scipy requests
 
 # Usage
