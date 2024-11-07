@@ -44,8 +44,10 @@ The interface is built using the Shiny package for Python and is styled with cus
 
 
 # Usage
-* Make sure your OpenWeatherMap API key is correctly set up in the script (see API Key Setup). Run the Shiny app:
-shiny run --reload --launch-browser dashboard/app.py
+* Make sure your OpenWeatherMap API key is correctly set up in the script (see API Key Setup).
+* Run the Shiny app:
+  ```bash
+   shiny run --reload --launch-browser dashboard/app.py
 -The app will open in your default web browser.
 
 # File Structure
@@ -93,7 +95,8 @@ requests
 
 # API Key Setup
 * You must obtain an API key from OpenWeatherMap and add it to the script:
-API_KEY = 'your_openweathermap_api_key_here'
+  ```bash
+   API_KEY = 'your_openweathermap_api_key_here'
 -Replace 'your_openweathermap_api_key_here' with your actual API key.
 
 # Contributing
