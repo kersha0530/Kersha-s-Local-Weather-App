@@ -37,10 +37,12 @@ The interface is built using the Shiny package for Python and is styled with cus
 
 
 * Install Python dependencies:
+  ```bash
 pip install -r requirements.txt
 
 
 * Install PyShiny and additional required libraries if necessary:
+  ```bash
 pip install shiny shiny-express faicons matplotlib scipy requests
 
 # Usage
