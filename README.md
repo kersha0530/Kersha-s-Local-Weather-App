@@ -35,14 +35,12 @@ The interface is built using the Shiny package for Python and is styled with cus
    git clone https://github.com/kersha0530/cintel-06-custom
    cd cintel-06-custom
 2. Install Python dependencies:
-
-bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 3. Install PyShiny and additional required libraries if necessary:
-
-bash
-pip install shiny shiny-express faicons matplotlib scipy requests
+   ```bash
+   pip install shiny shiny-express faicons matplotlib scipy requests
 
 
 # Usage
