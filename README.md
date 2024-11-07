@@ -95,7 +95,7 @@ Below is the content of requirements.txt:
 *requests
 
 # API Key Setup
-* You must obtain an API key from OpenWeatherMap and add it to the script:
+- You must obtain an API key from OpenWeatherMap and add it to the script:
   ```bash
    API_KEY = 'your_openweathermap_api_key_here'
 -Replace 'your_openweathermap_api_key_here' with your actual API key.
