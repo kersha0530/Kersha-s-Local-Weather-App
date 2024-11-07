@@ -34,16 +34,16 @@ The interface is built using the Shiny package for Python and is styled with cus
    ```bash
    git clone https://github.com/kersha0530/cintel-06-custom
    cd cintel-06-custom
-Install Python dependencies:
+2. Install Python dependencies:
 
 bash
-Copy code
 pip install -r requirements.txt
-Install PyShiny and additional required libraries if necessary:
+
+3. Install PyShiny and additional required libraries if necessary:
 
 bash
-Copy code
 pip install shiny shiny-express faicons matplotlib scipy requests
+
 
 # Usage
 * Make sure your OpenWeatherMap API key is correctly set up in the script (see API Key Setup). Run the Shiny app:
