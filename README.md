@@ -1,11 +1,15 @@
 # cintel-06-custom
-Kersha's Local Weather Data
-
-
 # Kersha's Local Weather Data Shiny App
-This Shiny app is designed to provide current weather information for selected parishes in Louisiana. The application uses data from the OpenWeatherMap API to fetch weather information and provides insights such as current temperature, average temperature, and temperature trends for the selected region. The interface is built using the shiny package for Python and styled with custom CSS.
 
-## Table of Contents
+## Project Overview
+Kersha's Local Weather Data app is a Shiny app that provides users with current weather information for selected parishes in Louisiana. The app fetches weather data from the OpenWeatherMap API and displays insights such as:
+
+- Current temperature
+- Average temperature
+- Temperature trends over time for the selected parish
+
+The interface is built using the Shiny package for Python and is styled with custom CSS to enhance user experience.
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
@@ -18,38 +22,23 @@ This Shiny app is designed to provide current weather information for selected p
 - [Contributing](#contributing)
 - [License](#license)
 
+## Features
+- **Parish Selection**: Users can select from East Baton Rouge, Orleans, Lafayette, or Caddo parishes to view weather data.
+- **Current Temperature**: Displays the latest temperature for the selected parish.
+- **Temperature Trends**: Plots historical temperature data for the selected parish.
+- **Links to External Resources**: Provides links to additional resources, including a GitHub repository for further exploration.
+- **Custom Styling**: Uses custom CSS for styling, including font settings, color schemes, and icons.
 
-# Project Overview
-Kersha's Local Weather Data app is a Shiny app that allows users to:
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kersha0530/cintel-06-custom
+   cd cintel-06-custom
 
-* Select a parish in Louisiana to view current weather conditions.
-
-* Display the current temperature and average temperature for the selected parish.
-
-* Generate temperature trend plots over time using historical data.
-
-* Access external links to related resources and GitHub repositories.
-
-* The app uses OpenWeatherMap for real-time data and provides a visually appealing and interactive interface.
-
-# Features
-* Parish Selection: Users can select from East Baton Rouge, Orleans, Lafayette, or Caddo parishes to view weather data.
-
-* Current Temperature: Displays the latest temperature for the selected parish.
-
-* Temperature Trends: Plots historical temperature data for the selected parish.
-
-* Links to External Resources: Provides links to additional resources, including a GitHub repository for further exploration.
-
-* Custom Styling: Uses custom CSS for styling, including font settings, color schemes, and icons.
-
-# Installation
-* Clone the repository:
-git clone https://github.com/kersha0530/cintel-06-custom
-cd cintel-06-custom
 
 * Install Python dependencies:
 pip install -r requirements.txt
+
 
 * Install PyShiny and additional required libraries if necessary:
 pip install shiny shiny-express faicons matplotlib scipy requests
@@ -112,6 +101,8 @@ Contributions are welcome! Feel free to open an issue or submit a pull request f
 
 # License
 This project is open-source and available under the MIT License. See the LICENSE file for more details.
+
+
 
 
 
