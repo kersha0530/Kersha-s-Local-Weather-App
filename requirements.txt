@@ -1,0 +1,6 @@
+shiny
+shiny-express
+faicons
+matplotlib
+scipy
+requests
